@@ -1,0 +1,32 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+.container {
+    max-width: 960px;
+}
+
+.navbar .nav-item.active {
+    font-weight: bold;
+}
+
+footer .links p {
+    margin-bottom: 0;
+}
+
+header .bg-light {
+    background-color: rgb(131, 170, 139);
+}
+
+footer.bg-light {
+    background-color: rgb(131, 170, 139);
+}
