@@ -36,3 +36,9 @@ footer.bg-light {
 #Logo {
     width: 100px;
 }
+
+@media (min-width: 992px) {
+    #navbarNav {
+        margin-right: 116px;
+    }
+}
