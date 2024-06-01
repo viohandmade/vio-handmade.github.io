@@ -31,3 +31,7 @@ header .bg-light {
 footer.bg-light {
     background-color: rgb(131, 170, 139);
 }
+
+#Logo {
+    width: 100px;
+}
