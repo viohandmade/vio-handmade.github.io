@@ -70,9 +70,6 @@ footer.bg-light {
 .pennant {
     width: 0;
     height: 0;
-    border-left: 30px solid transparent;
-    border-right: 30px solid transparent;
-    border-top: 60px solid;
     position: relative;
 }
 
@@ -101,28 +98,34 @@ footer.bg-light {
     max-width: 300px;
 }
 
+.pennant {
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 30px solid;
+}
+
 .pennant:nth-child(1) {
-    top: 22px;
+    top: 12px;
     transform: rotate(13deg);
 }
 
 .pennant:nth-child(2) {
-    top: 43px;
+    top: 22px;
     transform: rotate(7deg);
 }
 
 .pennant:nth-child(3) {
-    top: 50px;
+    top: 26px;
     transform: rotate(0deg);
 }
 
 .pennant:nth-child(4) {
-    top: 43px;
+    top: 22px;
     transform: rotate(-7deg);
 }
 
 .pennant:nth-child(5) {
-    top: 22px;
+    top: 12px;
     transform: rotate(-13deg);
 }
 
@@ -130,6 +133,12 @@ footer.bg-light {
     .chain-container {
         max-width: 600px;
         height: 110px;
+    }
+
+    .pennant {
+        border-left: 30px solid transparent;
+        border-right: 30px solid transparent;
+        border-top: 60px solid;
     }
 
     .pennant:nth-child(1) {
