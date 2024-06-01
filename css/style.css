@@ -81,30 +81,30 @@ footer.bg-light {
 
 .pennant:nth-child(1) {
     border-top-color: #e5b6ed;
-    top: 15px;
+    top: 22px;
     transform: rotate(13deg);
 }
 
 .pennant:nth-child(2) {
     border-top-color: #f497c6;
-    top: 36px;
+    top: 43px;
     transform: rotate(7deg);
 }
 
 .pennant:nth-child(3) {
     border-top-color: #f2cf83;
-    top: 43px;
+    top: 50px;
     transform: rotate(0deg);
 }
 
 .pennant:nth-child(4) {
     border-top-color: #e9efb6;
-    top: 36px;
+    top: 43px;
     transform: rotate(-7deg);
 }
 
 .pennant:nth-child(5) {
     border-top-color: #b3edeb;
-    top: 15px;
+    top: 22px;
     transform: rotate(-13deg);
 }
