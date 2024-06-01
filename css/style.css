@@ -52,7 +52,6 @@ footer.bg-light {
 .chain-container {
     position: relative;
     width: 100%;
-    max-width: 600px;
 }
 
 .chain {
@@ -74,37 +73,86 @@ footer.bg-light {
     border-left: 30px solid transparent;
     border-right: 30px solid transparent;
     border-top: 60px solid;
-    transform: rotate(0deg);
     position: relative;
-    top: -20px; /* Adjust to make the pennants look like they are attached to the chain */
 }
 
 .pennant:nth-child(1) {
     border-top-color: #e5b6ed;
+}
+
+.pennant:nth-child(2) {
+    border-top-color: #f497c6;
+}
+
+.pennant:nth-child(3) {
+    border-top-color: #f2cf83;
+}
+
+.pennant:nth-child(4) {
+    border-top-color: #e9efb6;
+}
+
+.pennant:nth-child(5) {
+    border-top-color: #b3edeb;
+}
+
+
+.chain-container {
+    max-width: 300px;
+}
+
+.pennant:nth-child(1) {
     top: 22px;
     transform: rotate(13deg);
 }
 
 .pennant:nth-child(2) {
-    border-top-color: #f497c6;
     top: 43px;
     transform: rotate(7deg);
 }
 
 .pennant:nth-child(3) {
-    border-top-color: #f2cf83;
     top: 50px;
     transform: rotate(0deg);
 }
 
 .pennant:nth-child(4) {
-    border-top-color: #e9efb6;
     top: 43px;
     transform: rotate(-7deg);
 }
 
 .pennant:nth-child(5) {
-    border-top-color: #b3edeb;
     top: 22px;
     transform: rotate(-13deg);
+}
+
+@media (min-width: 768px) {
+    .chain-container {
+        max-width: 600px;
+    }
+
+    .pennant:nth-child(1) {
+        top: 22px;
+        transform: rotate(13deg);
+    }
+
+    .pennant:nth-child(2) {
+        top: 43px;
+        transform: rotate(7deg);
+    }
+
+    .pennant:nth-child(3) {
+        top: 50px;
+        transform: rotate(0deg);
+    }
+
+    .pennant:nth-child(4) {
+        top: 43px;
+        transform: rotate(-7deg);
+    }
+
+    .pennant:nth-child(5) {
+        top: 22px;
+        transform: rotate(-13deg);
+    }
 }
