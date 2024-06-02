@@ -167,3 +167,10 @@ footer.bg-light {
         transform: rotate(-13deg);
     }
 }
+
+@media (min-width: 992px) {
+    .nav-link:focus, .nav-link:hover {
+        background-color: var(--bs-gray-600);
+        color: var(--bs-white);
+    }
+}
