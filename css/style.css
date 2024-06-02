@@ -169,6 +169,10 @@ footer.bg-light {
 }
 
 @media (min-width: 992px) {
+    .nav-link {
+        border-radius: var(--bs-border-radius);
+    }
+
     .nav-link:focus, .nav-link:hover {
         background-color: var(--bs-gray-600);
         color: var(--bs-white);
