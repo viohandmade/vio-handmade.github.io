@@ -172,5 +172,6 @@ footer.bg-light {
     .nav-link:focus, .nav-link:hover {
         background-color: var(--bs-gray-600);
         color: var(--bs-white);
+        border-radius: var(--bs-border-radius);
     }
 }
